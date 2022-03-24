@@ -1,0 +1,78 @@
+.footer{
+    padding: 100px 50px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer .footer-columm{
+    flex: 1;
+}
+.footer .footer-columm:not(:last-child){
+    margin-right: 8px;
+}
+.footer .footer-columm > img{
+    height: 84px;
+    width: 264px;
+    display: block;
+}
+.footer .footer-columm span{
+    color: var(--footer-color);
+    margin: 8px 0;
+    display: inline-block;
+}
+.footer .footer-contact{
+    list-style: none;
+}
+.footer .footer-contact li{
+    display: flex;
+    margin-top: 12px;
+    font-size: 16px;
+}
+.footer .footer-contact li i{
+    margin-right: 4px;
+    display: flex;
+    align-items: center;
+}
+.footer-columm .footer-lolumn-post{
+    list-style: none;
+    
+}
+.footer-columm .footer-lolumn-post li{
+    margin-top: 16px;
+    font-size: 16px;
+}
+.footer-columm .footer-lolumn-post li p{
+    margin-top: 8px;
+}
+.footer-columm .footer-columm-form{
+    margin-top: 8px;
+}
+.footer-columm .footer-columm-form-item{
+    width: 100%;
+    margin-bottom:16px ;
+    background-color: #fff;
+}
+.footer-columm .footer-columm-form-item input{
+    padding: 12px 16px;
+    border: none;
+    outline: none;
+}
+.footer-columm .footer-columm-form-item i{
+    color: #000;
+    margin-left: 16px;
+}
+.footer-columm button{
+    width: 100%;
+    padding: 12px 0;
+    background: var(--primary-color) ;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.footer-columm button:hover{
+    background-color: antiquewhite;
+}
