@@ -1,0 +1,53 @@
+.review{
+    background: url(../img/skiing-parallax-1.jpg) top center/ cover no-repeat; 
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-card-list{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+.review-card{
+    background-color: #fff;
+    border-radius: 12px;
+    margin: 0 20px;
+    height: 230px;
+    width: 500px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+.review-card:first-child, 
+.review-card:last-child {
+    margin: 0;
+}
+.review-card img{
+    height: 108px;
+    margin-right: 16px ;
+}
+.review h3{
+    
+}
+.review .review-card-info-rating{
+    color: var(--primary-color);
+    font-size: 12px;
+    margin: 12px 0;
+}
+.review-card-info span{
+    font-weight: 600;
+    margin-top:12px;
+    display: inline-block;
+}
+.review .review-dot{
+    color: var(--primary-color);
+    margin: 32px 0 64px;
+    font-size: 14px;
+}
+.review .review-dot i:not(:last-child){
+    margin: 0 12px ;
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #3fd0d4;
+  --header-text: #212121;
+  --subheader-text: #505050;
+  --mess-color: #ef2853;
+  --footer-color: #a9a9a9;
+}
+
+@import url(./header.css);
+@import url(./content.css);
+@import url(./slider.css);
+@import url(./introduce.css);
+@import url(./sport.css);
+@import url(./review.css);
+@import url(./holiday.css);

@@ -1,0 +1,15 @@
+.content-trick {
+    font-family: 'Kalam', cursive;
+    color: var(--primary-color);
+    font-size: 32px;
+}
+.content-title{
+    margin-bottom: 52px;
+    font-size: 72px;
+}
+.content-des{
+    color: #000;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 40px;
+}

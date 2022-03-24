@@ -1,0 +1,32 @@
+.holiday{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+.holiday .holiday-des{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.holiday-des .holiday-des-item{
+    text-align: center;
+    width: 240px;
+}
+.holiday-des .holiday-des-item h3{
+    margin: 12px 0;
+}
+.holiday-des .holiday-des-item img:hover{
+    animation: bot-to-top-holiday ease-in 0.25s;
+    transform: translateY(-3px);
+}
+@keyframes bot-to-top-holiday{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-3px);
+    }
+}
