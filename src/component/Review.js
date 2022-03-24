@@ -6,7 +6,7 @@ import user03 from '../img/user-img-3.png'
 const Review = () => {
     return (
         <div className='review'>
-            <h2 className='content-title' style={{color:'#fff'}}>Top Review</h2>
+            <h2 className='content-title ' style={{color:'#fff',marginTop:'50px'}}>Top Review</h2>
             <p className='content-des'style={{color:'#fff'}}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum</p>
             <div className="review-card-list">
                 <div className="review-card">

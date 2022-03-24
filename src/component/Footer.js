@@ -8,15 +8,15 @@ const Footer = () => {
                 <span>Lorem ipsum dolor sit ametco nsec te tuer adipiscing elitae</span>
                 <ul className="footer-contact">
                     <li>
-                        <i class="fas fa-envelope"></i>
+                        <i className="fas fa-envelope"></i>
                         <p>setsail@qode.com</p>
                     </li>
                     <li>
-                        <i class="fas fa-phone-alt"></i>
+                        <i className="fas fa-phone-alt"></i>
                         <p>1 562 867 5306</p>
                     </li>
                     <li>
-                        <i class="fas fa-map-marker-alt"></i>
+                        <i className="fas fa-map-marker-alt"></i>
                         <p>Broadway & Morris St, New York</p>
                     </li>
                 </ul>
