@@ -1,3 +1,4 @@
+import ButtomRight from "./component/ButtomRight";
 import Content from "./component/Content";
 import Footer from "./component/Footer";
 import Header from "./component/Header";
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Content/>
       <Footer/>
+      <ButtomRight/>
     </div>
   );
 }

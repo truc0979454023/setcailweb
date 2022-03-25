@@ -18,6 +18,7 @@
   --footer-color: #a9a9a9;
 }
 
+
 @import url(./header.css);
 @import url(./content.css);
 @import url(./slider.css);
@@ -28,3 +29,5 @@
 @import url(./member.css);
 @import url(./resort.css);
 @import url(./footer.css);
+@import url(./buttonRight.css);
+@import url(./responsive.css);

@@ -1,16 +1,17 @@
 .introduce{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 1rem;
     margin: 20px 0;
 }
 .introduce-item {
-    width: calc(100%/5);
-    margin-left: 10px;
+    width: 280px;
+    /* margin-left: 10px; */
     box-shadow: 2px 2px 16px #dddddd;
     z-index: 2;
+    margin: 0 auto;
 }
-.introduce-item:nth-child(1){
-    margin: 0;
-}
+
 .introduce-item-img{
     z-index: 1;
     overflow: hidden;

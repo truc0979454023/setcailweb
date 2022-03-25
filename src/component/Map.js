@@ -6,7 +6,7 @@ import map from '../img/sidearea-img.jpg'
 const Map = () => {
     return (
         <div className='map'>
-            <i class="fas fa-times"></i>
+            {/* <i className="fas fa-times"></i> */}
             <img src={logo} alt="" className="map-logo" />
             <img src={slogan} alt="" className="map-slogan" />
             <img src={map} alt="" className="map-location" />

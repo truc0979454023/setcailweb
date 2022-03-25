@@ -1,19 +1,35 @@
 import React, { useState, useRef } from 'react'
 import logo from '../img/logo.png'
+import logoMobile from '../img/logo-mobile-img.png'
 import Map from './Map'
 
 
 
 const Header = () => {
+
+    const [num, setNum] = useState(0)
+    const navRef = useRef()
+
+    const addClassName = () => {
+        setNum(prev => prev + 1)
+        if (num % 2 === 1) {
+            navRef.current.classList.add('activeNavBar')
+        } else {
+            navRef.current.classList.remove('activeNavBar')
+        }
+    }
     return (
         <div className='header'>
+            <i className="fas fa-bars header-menu" onClick={() => addClassName()} ></i>
             <img className='header-logo' src={logo} alt="" />
-            <ul className="navbar">
+            <img className='header-logo-mobile' src={logoMobile} alt="" />
+            <ul className="navbar" ref={navRef}>
                 <li>
                     <a href="#!">
                         Home
                         <div className="navbar-border-bottom"></div>
                     </a>
+                    <i className="fas fa-angle-right"></i>
                     <ul className="subnavbar">
                         <li>
                             <a href="#!">
@@ -70,7 +86,8 @@ const Header = () => {
                         Pages
                         <div className="navbar-border-bottom"></div>
                     </a>
-                    <ul className="subnavbar">
+                    <i className="fas fa-angle-right"></i>
+                    <ul className="subnavbar" >
                         <li>
                             <a href="#!">
                                 About Us
@@ -114,6 +131,7 @@ const Header = () => {
                         Destinations
                         <div className="navbar-border-bottom"></div>
                     </a>
+                    <i className="fas fa-angle-right"></i>
                     <ul className="subnavbar">
                         <li>
                             <a href="#!">
@@ -140,6 +158,7 @@ const Header = () => {
                         Tours
                         <div className="navbar-border-bottom"></div>
                     </a>
+                    <i className="fas fa-angle-right"></i>
                     <ul className="subnavbar">
                         <li>
                             <a href="#!">
@@ -172,6 +191,7 @@ const Header = () => {
                         Blog
                         <div className="navbar-border-bottom"></div>
                     </a>
+                    <i className="fas fa-angle-right"></i>
                     <ul className="subnavbar">
                         <li>
                             <a href="#!">
@@ -198,6 +218,7 @@ const Header = () => {
                         Shop
                         <div className="navbar-border-bottom"></div>
                     </a>
+                    <i className="fas fa-angle-right"></i>
                     <ul className="subnavbar">
                         <li>
                             <a href="#!">
@@ -230,6 +251,7 @@ const Header = () => {
                         Elements
                         <div className="navbar-border-bottom"></div>
                     </a>
+                    <i className="fas fa-angle-right"></i>
                     <ul className="subnavbar">
                         <li>
                             <a href="#!">
@@ -263,6 +285,7 @@ const Header = () => {
                     <Map />
                 </i>
             </div>
+            <i className="far fa-user-circle"></i>
         </div>
     )
 }

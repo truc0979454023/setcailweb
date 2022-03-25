@@ -1,22 +1,42 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef, useLayoutEffect } from 'react'
 import team01 from '../img/our-team-img1.jpg'
 import team02 from '../img/our-team-img2.jpg'
 import team03 from '../img/our-team-img3.jpg'
 import team04 from '../img/our-team-img4.jpg'
 
 const ContentMembers = () => {
-    const [tour, setTour] = useState(0)
-    const [years, setYears] = useState(0)
-    const [cottages, setCottages] = useState(0)
-    const [restaurants, setRestaursnts] = useState(0)
+    const [tour, setTour] = useState(333)
+    const [years, setYears] = useState(152)
+    const [cottages, setCottages] = useState(480)
+    const [restaurants, setRestaursnts] = useState(165)
+    const [scrollTop, setScrollTop] = useState(window.scrollY)
+    const numRef = useRef()
 
-    useEffect(() => {
-        if (tour <= 452) setTour(prev => prev + 1)
-        if (years <= 120) setYears(prev => prev + 1)
-        if (cottages <= 283) setCottages(prev => prev + 1)
-        if (restaurants <= 190) setRestaursnts(prev => prev + 1)
 
-    }, [tour, years, cottages, restaurants])
+    // useEffect(() => {
+    //     window.addEventListener('scroll', () => {
+    //         setScrollTop(window.scrollY + window.innerHeight)
+    //     })
+
+    //     return () => {
+    //         window.removeEventListener('scroll', () => {
+    //             setScrollTop(window.scrollY)
+    //         })
+    //     }
+    //     // return () =>
+    // }, [])
+
+    // useLayoutEffect(() => {
+    //     console.log(numRef.current.offsetTop, scrollTop)
+    //     if (numRef.current.offsetTop < scrollTop) {
+    //         if (tour < 452) setTour(prev => prev + 1)
+    //         else
+
+    //             if (years < 120) setYears(prev => prev + 1)
+    //         if (cottages < 283) setCottages(prev => prev + 1)
+    //         if (restaurants < 190) setRestaursnts(prev => prev + 1)
+    //     }
+    // }, [scrollTop, tour, years, cottages, restaurants])
 
     return (
         <div className='member'>
@@ -78,7 +98,7 @@ const ContentMembers = () => {
                 </div>
 
             </div>
-            <div className="member-years" >
+            <div className="member-years" ref={numRef} >
                 <div className="member-year-item">
                     <h3>{tour}</h3>
                     <p>Tourlists</p>

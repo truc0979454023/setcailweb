@@ -1,0 +1,142 @@
+@media (max-width : 1148px){
+    /* ---Header----------- */
+    .header{
+        background-color: var(--primary-color);
+        padding: 0;
+        justify-content: space-around;
+    }
+    .activeNavBar{
+        display: block !important;
+    }
+    .header-logo{
+        display: none;
+    }
+    .header-logo-mobile{
+        display: block;
+    }
+    .header > i{
+        display: block;
+        font-size: 32px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .header-icons{
+        display: none;
+    }
+    .navbar{
+        display: block;
+        background-color: #fff;
+        width: 100%;
+        position: absolute;
+        top: calc(-100% + 160px);
+        z-index: 3;
+        height: auto;
+        padding: 0 52px;
+        display: none;
+    }
+    .navbar > li{
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar > li:not(:last-child){
+        
+        border-bottom: 1px solid #b8b8b8;
+    }
+    .navbar > li i{
+        float: right;
+    }
+    .navbar li i{
+        display: block;
+        text-align: center;
+    }
+    .subnavbar{
+        width: 100%;
+        position: unset;
+        box-shadow: none;
+        padding: 16px 32px;
+    }
+
+     /* ------resort--------- */
+     .resort .resort-country{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-gap: 1rem;
+    }
+}
+
+@media (max-width : 1023px) {
+    /* ----slider------- */
+    .slider .slider-item img{
+        height: 100%;
+    }
+   
+   
+    /* ------holiday-------- */
+    .holiday .holiday-des{
+        flex-direction: column;
+    }
+    .holiday-des .holiday-des-item{
+        width: 100%;
+    }
+    .holiday-des .holiday-des-item:not(:last-child){
+        margin-bottom: 52px;
+    }
+}
+@media (max-width : 1023px) and (min-width:740px ){ 
+    /* slider */
+    .slider .slider-text .main-text{
+        font-size: 32px;
+    }
+    .slider .slider-text .text{
+        font-size: 62px;    
+    }
+    .slider .slider-text .sub-text{
+        font-size: 24px;   
+    }
+    /* Member */
+    .member-item{
+        width: 50%;
+    }
+    .member-years{
+        padding: 0;
+    }
+    .member-year-item{
+        width: 50%;
+        padding: 25px;
+    }
+    /* footer */
+    .footer-content .footer-columm{
+        width: 50%;
+    }
+}
+@media (max-width: 739px) {
+    /* slider */
+    .slider .slider-text .main-text{
+        font-family: 'Kalam', cursive;
+        font-size: 20px;
+    }
+    .slider .slider-text .text{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .slider .slider-text .sub-text{
+       display: none;
+    }
+    /* Member */
+    .member-item{
+        width: 100%;
+    }
+     .member-years{
+        padding: 0;
+    }
+    .member-year-item{
+        width: 100%;
+        padding: 25px;
+    }
+        /* footer */
+    .footer-content .footer-columm{
+        width: 100%;
+    }
+}

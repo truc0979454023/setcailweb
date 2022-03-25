@@ -7,25 +7,28 @@
 }
 
 .review-card-list{
-    display: flex;
+    /* display: flex;
     justify-content:space-between;
-    align-items: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
     width: 100%;
 }
 .review-card{
     background-color: #fff;
     border-radius: 12px;
-    margin: 0 20px;
+    margin: 0 auto;
     height: 230px;
-    width: 500px;
+    max-width: 500px;
     padding: 40px;
     display: flex;
     align-items: center;
 }
-.review-card:first-child, 
+/* .review-card:first-child, 
 .review-card:last-child {
     margin: 0;
-}
+} */
 .review-card img{
     height: 108px;
     margin-right: 16px ;
@@ -38,6 +41,7 @@
     font-size: 12px;
     margin: 12px 0;
 }
+
 .review-card-info span{
     font-weight: 600;
     margin-top:12px;

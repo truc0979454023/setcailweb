@@ -1,0 +1,28 @@
+.buttom-right{
+    position: fixed;
+    top: 156px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+.buttom-right button{
+    width: 45px;
+    height: 45px;
+    border: none;
+    box-shadow: 2px 2px 8px #a7a7a7;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.buttom-right button i{
+    font-size: 20px;
+}
+.buttom-right button:nth-child(1){
+    background-color: var(--mess-color);
+    color: #fff;
+    margin-bottom: 12px;
+}
+.buttom-right button:nth-child(2){
+    background-color: #fff ;
+    color:var(--mess-color);
+}

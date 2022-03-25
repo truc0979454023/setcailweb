@@ -5,10 +5,15 @@
     align-items: center;
     margin: 100px auto;
 }
-
+.sport .sport-video{
+    height: 350px;
+    max-width: 650px;
+    width: 90%;
+    margin: 0 auto;
+}
 .sport p{
     margin: 32px auto;
-    width: 600px;
+    width: 70%;
     font-size: 20px;
     text-align: center;
 }

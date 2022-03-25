@@ -3,6 +3,7 @@ background-color: var(--primary-color);
 }
 .member-list{
     display: flex;
+    flex-wrap: wrap;
 }
 .member-item{
     width: 25%;
@@ -26,8 +27,9 @@ background-color: var(--primary-color);
 }
 .member-item-info{
     position: absolute;
-    bottom: -50%;
+    bottom: -100%;
     left: 0;
+    width: 100%;
     background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
@@ -44,16 +46,18 @@ background-color: var(--primary-color);
 .member-item-info .member-item-info-cons{
     margin-bottom: 16px;
     font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 .member-item-info .member-item-info-cons i{
     cursor: pointer;
 }
-.member-item-info .member-item-info-cons i:not(:last-child){
-    margin-right: 32px;
-}
+
 .member-years{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     padding: 64px 0;
     justify-content: space-evenly;
     color: #fff;
