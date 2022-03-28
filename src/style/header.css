@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     right: 0;
-    display: flex;
+    display: flex; 
     height: 80px;
     padding: 0 20px;
     align-items: center;
@@ -15,6 +15,7 @@
 .header > i{
     color: #fff;
     display: none;
+    cursor: pointer;
 }
 .header-logo{
     height: 48px;

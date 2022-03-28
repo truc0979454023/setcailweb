@@ -24,6 +24,7 @@ background-color: var(--primary-color);
 }
 .member-item img{
     width: 100%;
+    vertical-align: middle;
 }
 .member-item-info{
     position: absolute;

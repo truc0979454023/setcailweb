@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef, useLayoutEffect } from 'react'
+import React, { useState, useRef } from 'react'
 import team01 from '../img/our-team-img1.jpg'
 import team02 from '../img/our-team-img2.jpg'
 import team03 from '../img/our-team-img3.jpg'
