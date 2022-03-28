@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/setcailapp/static/css/main.ce2d2367.css",
-    "main.js": "/setcailapp/static/js/main.e7feb69a.js",
+    "main.js": "/setcailapp/static/js/main.a90cab9e.js",
     "static/media/pexels-photo-35.jpeg": "/setcailapp/static/media/pexels-photo-35.3ff124a3f510680f3eb7.jpeg",
     "static/media/tour-featured-img-15.jpg": "/setcailapp/static/media/tour-featured-img-15.aed87760dd9fa7f53ca6.jpg",
     "static/media/pexels-photo.webp": "/setcailapp/static/media/pexels-photo.0d260e09eb9792e49249.webp",
@@ -24,10 +24,10 @@
     "static/media/logo.png": "/setcailapp/static/media/logo.cec38b1e5ba83e1b6174.png",
     "index.html": "/setcailapp/index.html",
     "main.ce2d2367.css.map": "/setcailapp/static/css/main.ce2d2367.css.map",
-    "main.e7feb69a.js.map": "/setcailapp/static/js/main.e7feb69a.js.map"
+    "main.a90cab9e.js.map": "/setcailapp/static/js/main.a90cab9e.js.map"
   },
   "entrypoints": [
     "static/css/main.ce2d2367.css",
-    "static/js/main.e7feb69a.js"
+    "static/js/main.a90cab9e.js"
   ]
 }
