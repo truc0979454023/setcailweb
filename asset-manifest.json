@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/setcail-demoapp/static/css/main.5e92ce06.css",
-    "main.js": "/setcail-demoapp/static/js/main.12878536.js",
+    "main.css": "/setcail-demoapp/static/css/main.96b073bb.css",
+    "main.js": "/setcail-demoapp/static/js/main.387444d3.js",
     "static/media/pexels-photo-35.jpeg": "/setcail-demoapp/static/media/pexels-photo-35.3ff124a3f510680f3eb7.jpeg",
     "static/media/tour-featured-img-15.jpg": "/setcail-demoapp/static/media/tour-featured-img-15.aed87760dd9fa7f53ca6.jpg",
     "static/media/pexels-photo.webp": "/setcail-demoapp/static/media/pexels-photo.0d260e09eb9792e49249.webp",
@@ -23,11 +23,11 @@
     "static/media/user-img-3.png": "/setcail-demoapp/static/media/user-img-3.35fe7159b96a649f9d91.png",
     "static/media/logo.png": "/setcail-demoapp/static/media/logo.cec38b1e5ba83e1b6174.png",
     "index.html": "/setcail-demoapp/index.html",
-    "main.5e92ce06.css.map": "/setcail-demoapp/static/css/main.5e92ce06.css.map",
-    "main.12878536.js.map": "/setcail-demoapp/static/js/main.12878536.js.map"
+    "main.96b073bb.css.map": "/setcail-demoapp/static/css/main.96b073bb.css.map",
+    "main.387444d3.js.map": "/setcail-demoapp/static/js/main.387444d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e92ce06.css",
-    "static/js/main.12878536.js"
+    "static/css/main.96b073bb.css",
+    "static/js/main.387444d3.js"
   ]
 }
