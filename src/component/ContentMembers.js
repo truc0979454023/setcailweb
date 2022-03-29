@@ -5,11 +5,10 @@ import team03 from '../img/our-team-img3.jpg'
 import team04 from '../img/our-team-img4.jpg'
 
 const ContentMembers = () => {
-    const [tour, setTour] = useState(333)
-    const [years, setYears] = useState(152)
-    const [cottages, setCottages] = useState(480)
-    const [restaurants, setRestaursnts] = useState(165)
-    const [scrollTop, setScrollTop] = useState(window.scrollY)
+    const [tour] = useState(333)
+    const [years] = useState(152)
+    const [cottages] = useState(480)
+    const [restaurants] = useState(165)
     const numRef = useRef()
 
 
